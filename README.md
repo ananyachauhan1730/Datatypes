@@ -3,21 +3,22 @@ Aim: To study and implement C++ Program Structure (Data Types).
 
 Tool: VS Code
 
-Theory: The program contains #include for input/output operations and then #include in order to show the string data type. using namespace std; enables the use of cout, cin, string, etc. without std::.
+Theory:
+The program contains #include for input/output operations and then #include in order to show the string data type. using namespace std; enables the use of cout, cin, string, etc. without std::.
 
-Program Flow In the main() method, the program demonstrates the declaration, input, and size of different C++ data types:
+•Program Flow In the main() method, the program demonstrates the declaration, input, and size of different C++ data types:
 
-Integer (int): Input an integer from the user, print the integer along with its size in bytes using sizeof() which is of 4 bytes.
+•Integer (int): Input an integer from the user, print the integer along with its size in bytes using sizeof() which is of 4 bytes.
 
-Floating-point (float): The program takes a float input (decimal number) and prints the value and its size in memory which is of 4 bytes.
+•Floating-point (float): The program takes a float input (decimal number) and prints the value and its size in memory which is of 4 bytes.
 
-Character (char): The program reads a character from input from the user, then prints it and its size which is of 1 bytes.
+•Character (char): The program reads a character from input from the user, then prints it and its size which is of 1 bytes.
 
-Double (double): A double-precision floating-point number is requested to be input by the user, then printed with its size which is of 8 bytes.
+•Double (double): A double-precision floating-point number is requested to be input by the user, then printed with its size which is of 8 bytes.
 
-String (string): The program takes an input word (the program points out that cin will read an input until encountering the first space), displays the string, and its memory size. The program takes sizeof(string), which gives the string object's fixed size, not the string length which is of 24 bytes.
+•String (string): The program takes an input word (the program points out that cin will read an input until encountering the first space), displays the string, and its memory size. The program takes sizeof(string), which gives the string object's fixed size, not the string length which is of 24 bytes.
 
-Boolean (bool): The program takes a boolean input(0=false, 1=true), displays it, then prints its size which is of 1 bytes.
+•Boolean (bool): The program takes a boolean input(0=false, 1=true), displays it, then prints its size which is of 1 bytes.
 
 Algorithm:
 
