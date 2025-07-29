@@ -22,6 +22,39 @@ The program contains #include for input/output operations and then #include in o
 
 Algorithm:
 
-Start the program. Declare an integer variable a. Prompt: Enter integer number Input: Read value into a Output: Display value of a and its size using sizeof(a) Declare a float variable b. Prompt: Enter floating number Input: Read value into b Output: Display value of b and its size using sizeof(b) Declare a character variable c. Prompt: Enter Character Input: Read value into c Output: Display value of c and its size using sizeof(c) Declare a double variable e. Prompt: Enter double int number Input: Read value into e Output: Display value of e and its size using sizeof(e) Declare a string variable f. Prompt: Enter String Input: Read value into f Output: Display value of f and its size using sizeof(f) Declare a boolean variable d. Prompt: Enter Boolean value Input: Read value into Output: Display value of d and its size using sizeof(d) End the program.
+Step 1: Understand Basic C++ Program Structure
+Every C++ program has the following structure:
 
+#include <iostream>     
+
+using namespace std;    
+
+int main() {           
+    // 4. Code goes here
+    return 0;    
+
+Step 2: Learn Basic Data Types
+In C++, the fundamental data types include:
+
+int — for integers (e.g., 10)
+
+float — for single-precision decimals (e.g., 3.14)
+
+double — for double-precision decimals
+
+char — for single characters (e.g., 'A')
+
+bool — for boolean values (true or false)  
+
+Step 3: Algorithm (Pseudocode)
+Here’s a sample pseudocode to understand implementation:
+
+Step 4: Practice
+Try modifying the program:
+
+Add string type using #include <string>
+
+Read user input using cin
+
+Try arithmetic operations
 Conclusion: The program display all the values and their sizes in memory. This makes it easier for users to learn how to apply datatypes practically in C++, but also introduces them to the concept of memory allocation of datatypes.
